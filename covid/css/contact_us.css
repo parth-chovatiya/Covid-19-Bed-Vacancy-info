@@ -1,0 +1,102 @@
+:root{
+  --black: black;
+  --azure: azure;
+  --white: white;
+  --shadow: rgba(0, 0, 0, 0.5);
+}
+.dark-theme{
+  --black: white;
+  --azure: grey;
+  --white: #333;
+  --shadow: rgba(202, 200, 200, 0.671);
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: var(--white);
+  color: var(--black);
+}
+.contact-form{
+  box-shadow: 0 0 4px 0 var(--shadow);
+  margin: 50px auto;
+  width: 350px;
+  text-align: center;
+  color: var(--black);
+}
+.contact-form h2{
+  background: var(--white);
+  margin-top: 0;
+  padding: 10px;
+}
+.contact-form input{
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+}
+.contact-form textarea{
+  width: 90%;
+  margin: 5px auto;
+}
+.submit-btn{
+  cursor: pointer;
+  width: 150px !important;
+  margin-left: 18px i !important;
+}
+.g-recaptcha{
+  margin: 10px 20px;
+  margin-bottom: 20px;
+}
+.status{
+  font-size: 15px;
+  color: green;
+  padding: 15px;
+}
+.status span{
+  color: red;
+}
+
+i.fab.fa-facebook-f.footericon {
+  padding-top: 12px;
+}
+i.fab.fa-twitter.footericon {
+  padding-top: 12px;
+}
+i.fab.fa-instagram.footericon {
+  padding-top: 12px;
+}
+i.fab.fa-linkedin.footericon {
+  padding-top: 12px;
+}
+
+.row-2{
+  display: flex;
+  max-width: 1300px;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px; 
+  height: auto;
+  margin-bottom: 20px;
+}
+.map{
+  margin:100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.row-2 .contact-us{
+  width: 50%;
+}
+.row-2 .map{
+  width: 50%;
+}
+.inner-row-content{
+  padding:10px;
+}
+.inner-row-content p{
+  margin: 7px;
+}
+.feedback,.bug{
+  display: flex;
+}

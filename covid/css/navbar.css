@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    line-height: normal;
+}
+.mnavbar{
+    position: sticky;
+    top: 00px;
+    background: rgb(67, 195, 238);
+    /* background: rgb(143, 173, 247); */
+    color: white;
+    z-index: 1;
+}
+.mnavbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.rigth {
+    float: right;
+}
+.mul{
+    width: 100%;
+    margin: 0px;
+}
+.mnavbar .mul .mli {
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    padding: 20px;
+    position: relative;
+}
+
+.mnavbar .mul .mli::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgb(1, 2, 2);
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    transition: 0.5s;
+}
+
+.mnavbar .mul .mli:hover::after {
+    width: 100%;
+    text-align: center;
+}
+
+
+
