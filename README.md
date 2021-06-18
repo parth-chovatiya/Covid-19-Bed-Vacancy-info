@@ -4,4 +4,3 @@
 - Added forgot password functionality. hospital authority need to enter their username and mail is going to be send to they mail id.
 - We have display other information's also. Like number of corona cases, active cases, recovered, death in particular state.
 
-#HTML #CSS #JavaScript #PHP 
